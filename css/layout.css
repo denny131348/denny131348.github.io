@@ -1,0 +1,115 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+.footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h2 {
+    margin: 0 0 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.parent {
+    position: relative;
+    /* Establishes a positioning context */
+    height: 200px;
+    /* Set a height for the parent */
+    border: 1px solid #ccc;
+    /* Optional styling */
+}
+
+.content {
+    padding: 10px;
+}
+
+.footer {
+    position: absolute;
+    /* Positioning the footer */
+    bottom: 0;
+    /* Stick it to the bottom */
+    left: 0;
+    /* Optional: align it to the left */
+    right: 0;
+    /* Optional: align it to the right */
+    background-color: #333;
+    /* Optional styling */
+    padding: 10px;
+    /* Optional padding */
+}
+
+h1 {
+    text-align: center;
+    /* Center the title */
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+h4 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: .8em;
+}
+
+
+img {
+    float: left;
+    display: block;
+    width: 20%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+body {
+    background-image: url("../images/antarctica_background__shiverpool__by_markendria2007_dfwxvv4-fullview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        position: relative;
+        padding: 20px;
+    }
+
+    .footer .container {
+        padding: 0 10px;
+    }
+
+    img {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 0.7em;
+    }
+
+}
